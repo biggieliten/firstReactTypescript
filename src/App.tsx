@@ -4,7 +4,9 @@ import TextToAlert from "./components/TextToAlert";
 import ChangeText from "./components/ChangeText";
 import QuestList from "./components/CodeExamples/QuestList";
 import VehicleList from "./components/CodeExamples/VehicleList";
+import ColorBox from "./components/ColorBox";
 import Addition from "./components/Addition";
+import List from "./components/List";
 import "./App.css";
 
 function App() {
@@ -19,6 +21,10 @@ function App() {
       <ChangeText />
 
       <Addition />
+
+      <ColorBox />
+
+      <List />
       <div className="questList">
         <QuestList />
 
