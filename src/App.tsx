@@ -7,6 +7,8 @@ import VehicleList from "./components/CodeExamples/VehicleList";
 import ColorBox from "./components/ColorBox";
 import Addition from "./components/Addition";
 import List from "./components/List";
+import CounterReducer from "./components/useReducer/CounterReducer";
+import Stringer from "./components/useReducer/Stringer";
 import "./App.css";
 
 function App() {
@@ -21,8 +23,10 @@ function App() {
       <ChangeText />
 
       <Addition />
+      <CounterReducer />
 
       <ColorBox />
+      <Stringer />
 
       <List />
       <div className="questList">
